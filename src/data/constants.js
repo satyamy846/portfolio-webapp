@@ -2,7 +2,7 @@ import CHAPERONE_IMG from '../images/Chaperone.jpg';
 import SIMON_GAME_IMG from '../images/Simon_Game.jpg';
 import INTERVIEW_CONNECT_IMG from '../images/InterviewConnect.jpg';
 import QUIZZY_IMG from '../images/Quizzy.jpg';
-import PROFILE_IMAGE from '../images/HeroImage.png';
+import PROFILE_IMAGE from '../images/My-Image.jpg';
 import TODO_IMG from '../images/Todo.jpg';
 import WEATHER_API_IMG from '../images/Weather_API.jpg'
 
@@ -17,7 +17,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/satyamy846",
   resume:
-    "https://drive.google.com/file/d/1MVc3mOyOz19kfpGsPZqU9a8G-YX6gVuZ/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ONVfL7do6DojtE-sFmvANreNMSh6E3ig/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/satyam-kumar-883190158/",
   leetcode: "https://leetcode.com/satyamy846/",
   twitter: "https://twitter.com/SatyamK79279318"
@@ -319,7 +319,7 @@ export const projects = [
     title: "Todo List",
     date: "March 2022 - March 2022",
     description:
-      ``,
+      `Implemented Todo list with react to store the list of items. Where user can add, update and remove items from the list.`,
     image: TODO_IMG,
     tags: ["HTML", "CSS", "Javascript", "ReactJS"],
     category: "web app",
@@ -331,11 +331,13 @@ export const projects = [
     title: "Weather API",
     date: "March 2022 - March 2021",
     description:
-      ``,
+      `Implemented to fetch realtime weather api report using react. Utilised open weather api to fecth the current weather details, 
+      when user opens this web app will be asked to allow access to current location so this app will show current location of the particular
+      user. Utilised google navigator and localstorage to store the weather details.`,
     image: WEATHER_API_IMG,
     tags: ["HTML", "CSS", "Javascript", "ReactJS"],
     category: "web app",
-    github: "https://github.com/satyamy846/TodoApp",
+    github: "https://github.com/satyamy846/WeatherAPI",
     webapp: "https://weather-kb1htdjjw-satyamy846.vercel.app/",
   },
 ];
